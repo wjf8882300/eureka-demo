@@ -17,5 +17,6 @@
 		<module>eureka-consumer</module>
 		<module>eureka-feign-consumer</module>
 		<module>config-server-git</module>
-	</modules>
+    	<module>config-client</module>
+  </modules>
 </project>
