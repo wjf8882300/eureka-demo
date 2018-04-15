@@ -6,6 +6,6 @@ spring:
       server:
         git:
           uri: https://github.com/wjf8882300/eureka-demo.git
-          search-paths: eureka-demo/config-repo
+          search-paths: config-repo
 server:
   port: 1201
