@@ -9,3 +9,15 @@ spring:
           search-paths: config-repo
 server:
   port: 1201
+
+#对称加密  
+#encrypt:
+#  key: tongguxinxi
+
+#非对称(RSA)
+encrypt:
+  key-store:
+    location: config-server.keystore
+    alias: config-server
+    password: 123456
+    secret: 123456
