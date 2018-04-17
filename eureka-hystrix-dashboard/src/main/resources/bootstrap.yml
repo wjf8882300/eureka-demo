@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: eureka-hystrixdashboard
+  cloud:
+    config:
+      #uri: http://localhost:1201/
+      #profile: dev
+      #label: master
+      discovery:
+        enabled: true
+        serviceId: config-server
+      profile: dev
+      label: master
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://wangjf:123@localhost:8761/eureka/
+      
+
+           

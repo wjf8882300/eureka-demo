@@ -18,5 +18,6 @@
 		<module>eureka-feign-consumer</module>
 		<module>config-server-git</module>
     	<module>config-client</module>
+    	<module>eureka-hystrix-dashboard</module>
   </modules>
 </project>
