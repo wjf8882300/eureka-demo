@@ -10,6 +10,11 @@ spring:
 server:
   port: 1201
 
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://wangjf:123@localhost:8761/eureka/
+
 #对称加密  
 #encrypt:
 #  key: tongguxinxi
