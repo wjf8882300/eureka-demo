@@ -28,6 +28,14 @@ public class OrderController {
 
 	@GetMapping("/sc/order/{id}")
 	public OrderModel findOrderById(@PathVariable Long id) {
+		
+		/*try {
+			Thread.sleep(1000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}*/
+		
 		OrderModel orderModel = orderService.findOrderByOrderId(id);
 		return orderModel;
 	}

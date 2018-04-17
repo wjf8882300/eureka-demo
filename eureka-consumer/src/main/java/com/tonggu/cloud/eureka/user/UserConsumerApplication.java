@@ -2,11 +2,13 @@ package com.tonggu.cloud.eureka.user;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.circuitbreaker.EnableCircuitBreaker;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
 
 //消费者端加入服务发现注解
+@EnableCircuitBreaker
 @EnableDiscoveryClient
 @SpringBootApplication
 public class UserConsumerApplication {
