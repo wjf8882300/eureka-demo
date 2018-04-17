@@ -20,9 +20,9 @@ eureka:
 #  key: tongguxinxi
 
 #非对称(RSA)
-encrypt:
-  key-store:
-    location: config-server.keystore
-    alias: config-server
-    password: 123456
-    secret: 123456
+#encrypt:
+#  key-store:
+#    location: config-server.keystore
+#    alias: config-server
+#    password: 123456
+#    secret: 123456
