@@ -14,4 +14,4 @@ eureka:
     prefer-ip-address: true
     
 info:
-  profile: test
+  profile: dev
