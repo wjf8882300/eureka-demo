@@ -15,7 +15,7 @@ eureka:
     
 turbine:
   app-config: eureka-consumer
-  cluster-name-expression: default
+  cluster-name-expression: new String("default")
   combine-host-port: true
     
 info:
