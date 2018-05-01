@@ -18,5 +18,6 @@
     	<module>config-client</module>
     	<module>eureka-hystrix-dashboard</module>
     	<module>eureka-turbine</module>
-  </modules>
+    	<module>eureka-stream</module>
+  	</modules>
 </project>

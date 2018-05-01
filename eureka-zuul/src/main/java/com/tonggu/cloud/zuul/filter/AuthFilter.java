@@ -2,6 +2,7 @@ package com.tonggu.cloud.zuul.filter;
 
 import javax.servlet.http.HttpServletRequest;
 
+import org.apache.http.client.ResponseHandler;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -30,6 +31,7 @@ public class AuthFilter extends ZuulFilter {
         	logger.warn("access token is empty");
             ctx.setSendZuulResponse(false);
             ctx.setResponseStatusCode(401);
+            ctx.setResponseBody(null);
             return null;
         }
         logger.info("access token ok");
